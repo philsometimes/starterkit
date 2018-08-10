@@ -5,8 +5,8 @@
 
 ;----------// Theme Information
 
-  name        = Starterkit
-  description = A brief description about the theme.
+  name        = asimmons
+  description = Custom OpenScholar Theme for Alison Simmons.
   module      = cleanblue
   screenshot  = screenshot.png
 
