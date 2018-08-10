@@ -13,21 +13,21 @@ ul, li, #nice-menu-primary-menu {
 /* TYPOGRAPHY*/
 
 .block-content.content {
-	font: 'Lobster', serif !important;
+	font: sans-serif !important;
 	color:#FF0101;
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
 	}
 
 /* This gets body text but can't override font */
 .boxes-box-content p {
-	font: 'Roboto' !important;
+	font: sans-serif !important;
 	text-transform: uppercase;
 	color:#00FF01;
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
 	}
 
 body {
-	font: 'Roboto' !important;
+	font: sans-serif !important;
 	text-transform: uppercase;
 	color:#00FF01;
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
