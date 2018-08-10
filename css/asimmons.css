@@ -23,7 +23,7 @@ ul, li, #nice-menu-primary-menu {
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
 	} */
 
-.block-content, .block-content p {
+.block-content.content, .block-content.content p {
 	font: 'Lobster', serif !important;
 	color:#FF0101;
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
