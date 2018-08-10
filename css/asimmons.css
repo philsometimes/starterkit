@@ -19,6 +19,13 @@ ul, li, #nice-menu-primary-menu {
 	}
 
 
+.boxes-box-content p {
+	font: 'Lobster', serif !important;
+	color:#00FF01;
+	/* background: url('../images/columnsBg.png') #f1f1f1; */
+	}
+
+
 a, a:link, a:active, p a {
 	color:#F1F1F1 !important;
 	font-weight: bold;
