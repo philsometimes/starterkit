@@ -1,0 +1,75 @@
+/* To utilize a google font, place the font url's here at the top of this css file as seen here*/
+@import url('//fonts.googleapis.com/css?family=Alegreya+Sans:300,500,900|Roboto|Lobster');
+
+#page-wrapper, #menu-bar, #columns.clearfix {
+	background-color: #312f2f;
+}
+
+ul, li, #nice-menu-primary-menu {
+	background-color: transparent !important;
+}
+
+
+/* TYPOGRAPHY*/
+
+.block-content.content {
+	font: sans-serif !important;
+	color:#FF0101;
+	/* background: url('../images/columnsBg.png') #f1f1f1; */
+	}
+
+/* This gets body text but can't override font */
+.boxes-box-content p {
+	font: sans-serif !important;
+	text-transform: uppercase;
+	color:#00FF01;
+	/* background: url('../images/columnsBg.png') #f1f1f1; */
+	}
+
+body {
+	font: sans-serif !important;
+	text-transform: uppercase;
+	color:#00FF01;
+	/* background: url('../images/columnsBg.png') #f1f1f1; */
+	}
+
+
+a, a:link, a:active, p a {
+	color:#F1F1F1 !important;
+	font-weight: bold;
+	text-decoration: none !important;
+	}
+
+a:hover, a:visited {
+	text-decoration: none !important;
+	color: #ECCF19 !important;
+	}
+
+h1, h1 a, h2, h3, h4 {
+	font-family:'Lobster', serif !important;
+	}
+
+h1, h1 a, h1 a:active {
+	font-size: 60px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	color: #ECCF19 !important;
+}
+
+h2, .boxes-box-content h2 {
+	font-color: #FF0000 !important;
+	font-weight:900;
+	}
+
+h3, h4 {
+	font-color: #F1F1F1 !important;
+	font-weight:300;
+	}
+
+
+/* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
+ THIS EXAMPLE IS AN IE8 OVERRIDE FOR MARGIN-BOTTOM OF AN H2 - .lt-ie8 WOULD TARGET IE7 */
+.lt-ie9 h2 {
+	margin-bottom:10px;
+	}
