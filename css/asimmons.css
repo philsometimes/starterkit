@@ -11,11 +11,24 @@ ul, li, #nice-menu-primary-menu {
 
 
 /* TYPOGRAPHY*/
+body {
+	font: 'Lobster', serif !important;
+	color:#F1F1F1;
+	/* background: url('../images/columnsBg.png') #f1f1f1; */
+	}
+
 .block-content.content body {
 	font: 'Lobster', serif !important;
 	color:#F1F1F1;
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
 	}
+
+.block-content {
+	font: 'Lobster', serif !important;
+	color:#F1F1F1;
+	/* background: url('../images/columnsBg.png') #f1f1f1; */
+	}
+
 
 a, a:link, a:active, p a {
 	color:#F1F1F1 !important;
