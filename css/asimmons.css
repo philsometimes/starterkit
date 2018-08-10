@@ -11,7 +11,7 @@ ul, li, #nice-menu-primary-menu {
 
 
 /* TYPOGRAPHY*/
-body {
+.block-content.content body {
 	font: 'Lobster', serif !important;
 	color:#F1F1F1;
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
