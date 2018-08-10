@@ -5,7 +5,7 @@
 	background-color: #312f2f;
 }
 
-ul, li {
+ul, li, #nice-menu-primary-menu {
 	background-color: transparent;
 }
 
@@ -40,7 +40,7 @@ h1, h1 a, h1 a:active {
 	color: #ECCF19 !important;
 }
 
-h2 {
+h2, .boxes-box-content h2 {
 	font-color: #FF0000 !important;
 	font-weight:900;
 	}
