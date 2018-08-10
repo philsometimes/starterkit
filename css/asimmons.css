@@ -11,29 +11,12 @@ ul, li, #nice-menu-primary-menu {
 
 
 /* TYPOGRAPHY*/
-/* body {
-	font: 'Lobster', serif !important;
-	color:#FF0101;
-	/* background: url('../images/columnsBg.png') #f1f1f1; */
-	} */
-
-/* .block-content.content body {
-	font: 'Lobster', serif !important;
-	color:#FF0101;
-	/* background: url('../images/columnsBg.png') #f1f1f1; */
-	} */
 
 .block-content.content {
 	font: 'Lobster', serif !important;
 	color:#FF0101;
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
 	}
-/* 
-.boxes-box-content p {
-	font: 'Lobster', serif !important;
-	color:#FF0101;
-	/* background: url('../images/columnsBg.png') #f1f1f1; */
-	} */
 
 
 a, a:link, a:active, p a {
