@@ -1,6 +1,7 @@
 /* To utilize a google font, place the font url's here at the top of this css file as seen here*/
-@import url('//fonts.googleapis.com/css?family=Alegreya+Sans:300,500,900|Roboto|Lobster');
+@import url('//fonts.googleapis.com/css?family=Alegreya+Sans:300,500,900|Roboto');
 
+/*Infrastructure*/
 #page-wrapper, #menu-bar, #columns.clearfix {
 	background-color: #312f2f;
 }
@@ -8,12 +9,6 @@
 
 /* TYPOGRAPHY*/
 
-body {
-	font: 'Lobster' !important;
-	text-transform: uppercase;
-	color:#00FF01;
-	/* background: url('../images/columnsBg.png') #f1f1f1; */
-	}
 
 
 
