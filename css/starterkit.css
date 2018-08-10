@@ -1,5 +1,5 @@
 /* To utilize a google font, place the font url's here at the top of this css file as seen here*/
-@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('//fonts.googleapis.com/css?family=Arvo');
 
 body {
 	font: arial,helvetica,sans-serif;
