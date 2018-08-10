@@ -1,5 +1,5 @@
 /* To utilize a google font, place the font url's here at the top of this css file as seen here*/
-@import url('//fonts.googleapis.com/css?family=Alegreya+Sans:300,500,900|Roboto');
+@import url('//fonts.googleapis.com/css?family=Alegreya+Sans:100,300,500,900|Roboto:300,300i,500');
 
 /*Infrastructure*/
 #page-wrapper, #menu-bar, #columns.clearfix {
@@ -17,7 +17,7 @@
 #boxes-box-site_info a {
 	color: #ECCF19;
 	font-family: 'Alegreya Sans', sans-serif;
-	font-weight: 900;
+	font-weight: 100;
 	font-size: 90px;
 }
 /* overrides nav link text */
@@ -29,9 +29,12 @@
 		} */
 #menu-bar ul.nice-menu .menuparent ul li a,#menu-bar ul.nice-menu a {
 	font-family: 'Alegreya Sans', sans-serif;
-	color: #ECCF19;
-	font-size: 14px;
-	padding: 5px 17px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 11px;
+	letter-spacing: .4em;
+	padding: 0 2em;
 }
 /* overrides nav link cells */
 	/* #menu-bar ul li a {
@@ -50,7 +53,8 @@
 	text-decoration:none;
 	text-transform:lowercase;
 	font-size:12px;
-	margin-right:0px; /*spacing between nav links*/
+	margin:0; /*spacing between nav links*/
+	border-bottom: 1.5px solid;
 }
 
 /* overrides nav link hover state*/
@@ -59,8 +63,8 @@
 	 color:#FFF;
 	} */
 #menu-bar ul.nice-menu .menuparent.over > a,#menu-bar ul.nice-menu .menuparent a:hover,#menu-bar ul.nice-menu a:hover {
- background:#106599;
- color:#FFF;
+ background:transparent;
+ color:#ECCF19;
 }
 /* overrides nav link active state*/
 	/* #menu-bar ul.nice-menu a.active,#menu-bar ul.nice-menu .menuparent a.active {
@@ -68,8 +72,8 @@
 	 color:#333;
 	} */
 #menu-bar ul.nice-menu a.active,#menu-bar ul.nice-menu .menuparent a.active {
-	background:#ECE7E7;
-	color:#333;
+	background:transparent;
+	color:#F7A80E;
 }
 
 /* overrides menu bar */
@@ -79,11 +83,40 @@
 	 border-bottom:5px solid #ECE7E7;
 	} */
 #menu-bar {
- padding:0;
+ padding:20px 0px 0px 0px;
  border-bottom:0px;
 }
 
+p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #FFF;
+}
 
+p>a{
+	color:#ECCF19;
+	font-weight: 500;
+	text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+h2, .sidebar .content h2{
+	font-weight: 500;
+	color: #F7A80E;
+}
+
+h3, h4, h5{
+	font-weight: 100;
+	color: #FFF;
+}
+
+#columns.clearfix{
+	padding-top: 0;
+}
 
 /* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
  THIS EXAMPLE IS AN IE8 OVERRIDE FOR MARGIN-BOTTOM OF AN H2 - .lt-ie8 WOULD TARGET IE7 */
