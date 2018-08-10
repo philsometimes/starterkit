@@ -131,6 +131,17 @@ h3, h4, h5{
 	padding-top: 0;
 }
 
+div.biblio-separator-bar{
+	font-weight: 500;
+	color: #F7A80E;
+	background:none !important;
+	background-color: #F7A80E;
+	border:1px solid #ccc !important;
+	border-bottom:1px solid #ccc !important;
+	margin:1em 0 1em 0;
+	padding:0;
+}
+
 
 
 /* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
