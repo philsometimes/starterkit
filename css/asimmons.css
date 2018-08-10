@@ -1,18 +1,18 @@
 /* To utilize a google font, place the font url's here at the top of this css file as seen here*/
-@import url('//fonts.googleapis.com/css?family=Alegreya+Sans:300,500,900|Roboto');
+@import url('//fonts.googleapis.com/css?family=Alegreya+Sans:300,500,900|Roboto|Arvo');
 
 #page-wrapper, #menu-bar, #columns.clearfix {
 	background-color: #312f2f;
 }
 
 ul, li, #nice-menu-primary-menu {
-	background-color: transparent;
+	background-color: transparent !important;
 }
 
 
 /* TYPOGRAPHY*/
 body {
-	font: 'Roboto',helvetica,sans-serif;
+	font: 'Arvo', sans-serif;
 	color:#F1F1F1;
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
 	}
@@ -29,7 +29,7 @@ a:hover, a:visited {
 	}
 
 h1, h1 a, h2, h3, h4 {
-	font-family:'Alegraya Sans', helvetica, sans-serif;
+	font-family:'Arvo', sans-serif;
 	}
 
 h1, h1 a, h1 a:active {
