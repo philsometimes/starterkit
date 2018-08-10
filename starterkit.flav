@@ -5,9 +5,9 @@
 
 ;----------// Theme Information
 
-  name        = Starterkit 
+  name        = Starterkit
   description = A brief description about the theme.
-  module      = cleanblue
+  module      = stark
   screenshot  = screenshot.png
 
 ;----------// Stylesheets
