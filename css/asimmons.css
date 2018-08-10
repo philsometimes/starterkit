@@ -2,7 +2,7 @@
 @import url('//fonts.googleapis.com/css?family=Alegreya+Sans:100,300,500,900|Roboto:300,300i,500');
 
 /*Infrastructure*/
-#page-wrapper, #menu-bar, #columns.clearfix {
+body, #page-wrapper, #menu-bar, #columns.clearfix {
 	background-color: #312f2f;
 }
 
@@ -87,7 +87,7 @@
  border-bottom:0px;
 }
 
-p{
+p, #main-content{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
@@ -104,6 +104,19 @@ h1, h2, h3, h4, h5 {
 	font-family: 'Alegreya Sans', sans-serif;
 }
 
+h1#page-title {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #F7A80E;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: .4em;
+}
+
+#main-content{
+	padding: 0;
+}
+
 h2, .sidebar .content h2{
 	font-weight: 500;
 	color: #F7A80E;
@@ -117,6 +130,8 @@ h3, h4, h5{
 #columns.clearfix{
 	padding-top: 0;
 }
+
+
 
 /* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
  THIS EXAMPLE IS AN IE8 OVERRIDE FOR MARGIN-BOTTOM OF AN H2 - .lt-ie8 WOULD TARGET IE7 */
