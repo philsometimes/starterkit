@@ -12,7 +12,7 @@ ul, li, #nice-menu-primary-menu {
 
 /* TYPOGRAPHY*/
 body {
-	font: 'Arvo', serif !important;
+	font: 'Lobster', cursive !important;
 	color:#F1F1F1;
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
 	}
@@ -29,7 +29,7 @@ a:hover, a:visited {
 	}
 
 h1, h1 a, h2, h3, h4 {
-	font-family:'Arvo', serif !important;
+	font-family:'Lobster', cursive !important;
 	}
 
 h1, h1 a, h1 a:active {
