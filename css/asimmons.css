@@ -1,7 +1,7 @@
 /* To utilize a google font, place the font url's here at the top of this css file as seen here*/
 @import url('//fonts.googleapis.com/css?family=Tenor+Sans|Chivo:300,400,700,900');
 
-.page {
+#page-wrapper {
 	background-color: black;
 }
 
