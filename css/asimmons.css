@@ -13,7 +13,7 @@ body {
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
 	}
 
-a, a:link, a:active {
+a, a:link, a:active, p a {
 	color:#F1F1F1;
 	font-weight: bold;
 	text-decoration: none;
@@ -28,7 +28,7 @@ h1, h1 a, h2, h3, h4 {
 	font-family:'Alegraya Sans', helvetica, sans-serif;
 	}
 
-h1, h1a {
+h1, h1 a {
 	font-size: 60px;
 	font-weight: 900;
 	letter-spacing: 1em;
