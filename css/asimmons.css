@@ -18,16 +18,16 @@ ul, li, #nice-menu-primary-menu {
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
 	}
 
-
+/* This gets body text but can't override font */
 .boxes-box-content p {
-	font: 'Roboto', sans-serif !important;
+	font: 'Roboto' !important;
 	text-transform: uppercase;
 	color:#00FF01;
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
 	}
 
 body {
-	font: 'Roboto', sans-serif !important;
+	font: 'Roboto' !important;
 	text-transform: uppercase;
 	color:#00FF01;
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
