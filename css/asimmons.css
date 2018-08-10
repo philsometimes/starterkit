@@ -1,5 +1,5 @@
 /* To utilize a google font, place the font url's here at the top of this css file as seen here*/
-@import url('//fonts.googleapis.com/css?family=Alegreya+Sans:300,500,900|Roboto|Arvo');
+@import url('//fonts.googleapis.com/css?family=Alegreya+Sans:300,500,900|Roboto|Lobster');
 
 #page-wrapper, #menu-bar, #columns.clearfix {
 	background-color: #312f2f;
@@ -12,7 +12,7 @@ ul, li, #nice-menu-primary-menu {
 
 /* TYPOGRAPHY*/
 body {
-	font: 'Lobster', cursive !important;
+	font: 'Lobster', serif !important;
 	color:#F1F1F1;
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
 	}
@@ -29,7 +29,7 @@ a:hover, a:visited {
 	}
 
 h1, h1 a, h2, h3, h4 {
-	font-family:'Lobster', cursive !important;
+	font-family:'Lobster', serif !important;
 	}
 
 h1, h1 a, h1 a:active {
