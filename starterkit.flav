@@ -12,8 +12,8 @@
 
 ;----------// Stylesheets
 
-  css[] = css/starterkit.css
-; css[] = css/starterkit.layout.css
-; ie_stylesheets[screen][lt IE 9][] = css/starterkit-ie.css
+  css[] = css/asimmons.css
+; css[] = css/asimmons.layout.css
+; ie_stylesheets[screen][lt IE 9][] = css/asimmons-ie.css
 
-; scripts[] = js/starterkit.js
+; scripts[] = js/asimmons.js
