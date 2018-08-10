@@ -20,7 +20,8 @@ ul, li, #nice-menu-primary-menu {
 
 
 .boxes-box-content p {
-	font: 'Lobster', serif !important;
+	font: 'Roboto', sans-serif !important;
+	text-transform: uppercase;
 	color:#00FF01;
 	/* background: url('../images/columnsBg.png') #f1f1f1; */
 	}
