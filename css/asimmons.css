@@ -2,7 +2,7 @@
 @import url('//fonts.googleapis.com/css?family=Alegreya+Sans:100,300,500,900|Roboto:300,300i,500');
 
 /*Infrastructure*/
-body, #page-wrapper, #menu-bar, #columns.clearfix {
+body, #page-wrapper, #menu-bar, #columns.clearfix, #footer, #extradiv, .region region-page-bottom {
 	background-color: #312f2f;
 }
 
