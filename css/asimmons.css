@@ -87,7 +87,7 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer, #extradiv, .region r
  border-bottom:0px;
 }
 
-p, #main-content{
+p, #main-content {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
@@ -100,17 +100,37 @@ p>a, #content a {
 	text-decoration: none !important;
 }
 
+
 h1, h2, h3, h4, h5 {
 	font-family: 'Alegreya Sans', sans-serif;
 }
 
-h1#page-title {
+h1#page-title, h1.node-title {
 	font-family: 'Alegreya Sans', sans-serif;
 	color: #F7A80E;
 	text-transform: uppercase;
 	font-weight: 500;
-	font-size: 20px;
 	letter-spacing: .4em;
+}
+
+h1#page-title {
+	font-size: 20px;
+}
+
+h1.node-title {
+	font-size: 16px;
+	letter-spacing: .3em;
+	font-weight: 300;
+}
+
+.field.field-label-inline.clearfix.view-mode-teaser, h2.field-label, .date-display-single {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #F7A80E;
+	font-size: 13px !important;
+	font-weight: 300 !important;
+	letter-spacing: .15em;
+	text-transform: capitalize;
+	
 }
 
 #main-content{
