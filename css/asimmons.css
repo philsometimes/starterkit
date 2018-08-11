@@ -6,6 +6,20 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer, #extradiv, .region r
 	background-color: #312f2f;
 }
 
+#menu-bar ul.nice-menu a{
+	font-size:11px !important;
+	padding:8px;
+}
+
+#menu-bar ul.nice-menu a.active {
+	background-color:#F7A80E !important;
+	color:#FFF;
+}
+
+#menu-bar ul.nice-menu a:hover{
+	color:#ECCF19 !important;
+}
+
 
 /* TYPOGRAPHY*/
 
@@ -14,17 +28,11 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer, #extradiv, .region r
 	 color:#991122;
 	 font-family:helvetica,serif;
 	} */
-
-#boxes-box-site_info {
-	padding: 20px 0;
-}
-
 #boxes-box-site_info a {
 	color: #ECCF19;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-weight: 100;
 	font-size: 90px;
-	line-height: 80px;
 }
 /* overrides nav link text */
 	/* #menu-bar ul.nice-menu .menuparent ul li a,#menu-bar ul.nice-menu a {
@@ -89,7 +97,7 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer, #extradiv, .region r
 	 border-bottom:5px solid #ECE7E7;
 	} */
 #menu-bar {
- padding:40px 0px 0px 0px;
+ padding:20px 0px 0px 0px;
  border-bottom:0px;
 }
 
@@ -237,9 +245,6 @@ a.class_material_field_class_anchor {
 	background: none !important;
 }
 
-.node.node-link {
-	border: none;
-}
 
 /* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
  THIS EXAMPLE IS AN IE8 OVERRIDE FOR MARGIN-BOTTOM OF AN H2 - .lt-ie8 WOULD TARGET IE7 */
