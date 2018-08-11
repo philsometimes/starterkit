@@ -94,10 +94,12 @@ p, #main-content {
 	color: #FFF;
 }
 
-p>a, #content a {
+p>a, #content a, .field a {
+	font-family: 'Roboto', sans-serif;
 	color:#ECCF19 !important;
 	font-weight: 500;
 	text-decoration: none !important;
+	letter-spacing: initial;
 }
 
 
@@ -123,15 +125,15 @@ h1.node-title {
 	font-weight: 300;
 }
 
-.field.field-label-inline.clearfix.view-mode-teaser, h2.field-label, .date-display-single {
+.field.field-label-above, h2.field-label, .date-display-single {
 	font-family: 'Alegreya Sans', sans-serif;
 	color: #F7A80E;
-	font-size: 13px !important;
+	font-size: 123x !important;
 	font-weight: 300 !important;
 	letter-spacing: .15em;
 	text-transform: capitalize;
-	
 }
+
 
 #main-content{
 	padding: 0;
@@ -191,16 +193,19 @@ a.biblio-abstract-link.toggle.expanded {
 	font-style: italic;
 }
 
-.contextual-controls-wrapper .add_new {
+.contextual-controls-wrapper .add_new, .add_new a, a.class_material_field_class_anchor {
 	background: transparent;
-	border: 2px solid #ECCF19;
-}
-
-.contextual-controls-wrapper .add_new a {
+	border: 2px solid #ECCF19 !important;
 	color: #ECCF19 !important;
 	text-transform: uppercase;
-	font-size: 11px;
-	letter-spacing: .1em;
+	font-size: 11px !important;
+  font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	letter-spacing: .1em !important;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	padding: 5px 10px;
 }
 
 .block-inner {
@@ -209,6 +214,10 @@ a.biblio-abstract-link.toggle.expanded {
 
 #powered-by a{
 	background:url(/profiles/openscholar/themes/os_basetheme/images/scholarbase-sprite.png?123) no-repeat scroll -14px -547px transparent;
+}
+
+a.class_material_field_class_anchor {
+	background: none !important;
 }
 
 
