@@ -2,7 +2,7 @@
 @import url('//fonts.googleapis.com/css?family=Alegreya+Sans:100,300,500,900|Roboto:300,300i,500');
 
 /*Infrastructure*/
-body, #page-wrapper, #menu-bar, #columns.clearfix, #footer, #extradiv, .region region-page-bottom {
+body, #page-wrapper, #menu-bar, #columns.clearfix, #footer, #extradiv, .region region-page-bottom, #cboxOverlay, #colorbox {
 	background-color: #312f2f;
 }
 
@@ -171,11 +171,24 @@ a.biblio-abstract-link.toggle.expanded {
 	font-style: italic;
 }
 
-.ctools-dropdown {
+.contextual-controls-wrapper .add_new {
+	background: transparent;
+	border: 2px solid #ECCF19;
+}
+
+.contextual-controls-wrapper .add_new a {
+	color: #ECCF19 !important;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: .1em;
 }
 
 .block-inner {
 	margin-top: 0 !important;
+}
+
+#powered-by a{
+	background:url(/profiles/openscholar/themes/os_basetheme/images/scholarbase-sprite.png?123) no-repeat scroll -14px -547px transparent;
 }
 
 
