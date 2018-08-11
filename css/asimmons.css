@@ -117,6 +117,7 @@ h1#page-title, h1.node-title {
 
 h1#page-title {
 	font-size: 20px;
+  border-bottom: 1.5px solid #F7A80E;
 }
 
 h1.node-title, h1.node-title a {
@@ -210,6 +211,13 @@ a.biblio-abstract-link.toggle.expanded {
 	border-radius:4px;
 	padding: 5px 10px;
 }
+
+.ctools-dropdown ul, .ctools-dropdown-container {
+	background-color: #ECCF19;
+	border: none !important;
+	box-shadow: none !important;
+}
+
 
 .block-inner {
 	margin-top: 0 !important;
