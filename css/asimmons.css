@@ -152,11 +152,15 @@ a.biblio-abstract-link.toggle {
 }
 
 a.biblio-abstract-link.toggle {
-	background:url(/images/abstract-open.svg);
+	background:url(../images/abstract-expand.svg);
+	background-repeat: no-repeat;
+	padding-left: 20px;
 }
 
 a.biblio-abstract-link.toggle.expanded {
-	background:url(/images/abstract-close.svg);
+	background:url(../images/abstract-close.svg);
+	background-repeat: no-repeat;
+	padding-left: 20px;
 }
 
 /* a.biblio-abstract-link.toggle.expanded {
