@@ -1,19 +1,24 @@
 /* To utilize a google font, place the font url's here at the top of this css file as seen here*/
 @import url('//fonts.googleapis.com/css?family=Alegreya+Sans:100,300,500,900|Roboto:300,300i,500');
 
-/*Infrastructure*/
-body, #page-wrapper, #menu-bar, #columns.clearfix, #footer, #extradiv, .region region-page-bottom, #cboxOverlay, #colorbox {
+/* basic page colors and layout*/
+body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, .region.region-page-bottom, #cboxOverlay, #colorbox, #page.container.page.header-none.content-top.footer-none, #branding-footer.branding-container, #page-wrap.page-wrap {
 	background-color: #312f2f;
 }
 
+#main-content{
+	padding: 0;
+}
 
-/* TYPOGRAPHY*/
+#columns.clearfix{
+	padding-top: 0;
+}
 
-/* overrides site title */
-	/* #boxes-box-site_info a {
-	 color:#991122;
-	 font-family:helvetica,serif;
-	} */
+.block-inner {
+	margin-top: 0 !important;
+}
+
+/* site title */
 #boxes-box-site_info a {
 	color: #ECCF19;
 	font-family: 'Alegreya Sans', sans-serif;
@@ -26,7 +31,7 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer, #extradiv, .region r
 	margin: 20px 0;
 }
 
-
+/* hamburger nav */
 #menu-bar ul.nice-menu a{
 	font-size:11px !important;
 	padding:8px;
@@ -41,13 +46,7 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer, #extradiv, .region r
 	transition: 0.5s ease-in !important;
 }
 
-/* overrides nav link text */
-	/* #menu-bar ul.nice-menu .menuparent ul li a,#menu-bar ul.nice-menu a {
-		font-family:helvetica,serif;
-		font-size:14px;
-		color:#303030;
-		padding:5px 17px;
-		} */
+/* regular nav */
 #menu-bar ul.nice-menu .menuparent ul li a,#menu-bar ul.nice-menu a {
 	font-family: 'Alegreya Sans', sans-serif;
 	color: #FFF;
@@ -57,16 +56,7 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer, #extradiv, .region r
 	letter-spacing: .4em;
 	padding: 0 2em;
 }
-/* overrides nav link cells */
-	/* #menu-bar ul li a {
-	 padding:.5em 1.38em;
-	 background:#FFF;
-	 color:#444;
-	 text-decoration:none;
-	 text-transform:uppercase;
-	 font-size:12px;
-	 margin-right:1px;
-	} */
+
 #menu-bar ul li a {
 	padding:.5em 1.38em;
 	background:transparent;
@@ -78,36 +68,24 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer, #extradiv, .region r
 	border-bottom: 1.5px solid;
 }
 
-/* overrides nav link hover state*/
-	/* #menu-bar ul.nice-menu .menuparent.over > a,#menu-bar ul.nice-menu .menuparent a:hover,#menu-bar ul.nice-menu a:hover {
-	 background:#106599;
-	 color:#FFF;
-	} */
 #menu-bar ul.nice-menu .menuparent.over > a,#menu-bar ul.nice-menu .menuparent a:hover,#menu-bar ul.nice-menu a:hover {
  background:transparent;
  color:#ECCF19;
  transition: 0.5s ease-in;
 }
-/* overrides nav link active state*/
-	/* #menu-bar ul.nice-menu a.active,#menu-bar ul.nice-menu .menuparent a.active {
-	 background:#ECE7E7;
-	 color:#333;
-	} */
+
 #menu-bar ul.nice-menu a.active,#menu-bar ul.nice-menu .menuparent a.active {
 	background:transparent;
 	color:#F7A80E;
 }
 
-/* overrides menu bar */
-	/* #menu-bar {
-	 background:#FFF;
-	 padding:0 10px 0 0;
-	 border-bottom:5px solid #ECE7E7;
-	} */
+/* menu bar */
 #menu-bar {
  padding:20px 0px 0px 0px;
  border-bottom:0px;
 }
+
+/* typography */
 
 p, #main-content {
 	font-family: 'Roboto', sans-serif;
@@ -123,7 +101,6 @@ p>a, #content a, .field a {
 	text-decoration: none !important;
 	letter-spacing: initial;
 }
-
 
 h1, h2, h3, h4, h5 {
 	font-family: 'Alegreya Sans', sans-serif;
@@ -157,11 +134,6 @@ h1.node-title, h1.node-title a {
 	text-transform: capitalize;
 }
 
-
-#main-content{
-	padding: 0;
-}
-
 h2, .sidebar .content h2{
 	font-weight: 500;
 	color: #F7A80E;
@@ -172,10 +144,7 @@ h3, h4, h5{
 	color: #FFF;
 }
 
-#columns.clearfix{
-	padding-top: 0;
-}
-
+/* research page */
 .biblio-separator-bar{
 	font-weight: 500;
 	color: #F7A80E;
@@ -207,7 +176,6 @@ a.biblio-abstract-link.toggle.expanded {
 	padding-left: 16px;
 }
 
-
 .biblio-abstract-display {
 	background-color: transparent;
 	margin-top: 10px;
@@ -215,6 +183,8 @@ a.biblio-abstract-link.toggle.expanded {
   color: #CACACA;
 	font-style: italic;
 }
+
+/* add buttons */
 
 .contextual-controls-wrapper .add_new, .add_new a, a.class_material_field_class_anchor {
 	background: transparent;
@@ -240,10 +210,7 @@ a.biblio-abstract-link.toggle.expanded {
 	box-shadow: none !important;
 }
 
-
-.block-inner {
-	margin-top: 0 !important;
-}
+/* misc chrome */
 
 #powered-by a{
 	background:url(/profiles/openscholar/themes/os_basetheme/images/scholarbase-sprite.png?123) no-repeat scroll -14px -547px transparent;
@@ -252,7 +219,6 @@ a.biblio-abstract-link.toggle.expanded {
 a.class_material_field_class_anchor {
 	background: none !important;
 }
-
 
 .node.node-link {
 	border: none;
