@@ -98,7 +98,7 @@ p, #main-content {
 p>a, #content a, .field a {
 	font-family: 'Roboto', sans-serif;
 	color:#85FFF5 !important;
-	font-weight: 500;
+	font-weight: 300;
 	text-decoration: none !important;
 	letter-spacing: initial;
 }
