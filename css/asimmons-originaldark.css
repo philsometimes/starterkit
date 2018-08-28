@@ -1,0 +1,234 @@
+/* To utilize a google font, place the font url's here at the top of this css file as seen here*/
+@import url('//fonts.googleapis.com/css?family=Alegreya+Sans:100,300,500,900|Roboto:300,300i,500');
+
+/* basic page colors and layout*/
+body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, .region.region-page-bottom, #cboxOverlay, #colorbox, #page.container.page.header-none.content-top.footer-none, #branding-footer.branding-container, #page-wrap.page-wrap {
+	background-color: #312f2f;
+}
+
+#main-content{
+	padding: 0;
+}
+
+#columns.clearfix{
+	padding-top: 0;
+}
+
+.block-inner {
+	margin-top: 0 !important;
+}
+
+/* site title */
+#boxes-box-site_info a {
+	color: #ECCF19;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 100;
+	font-size: 75px;
+	line-height: 75px;
+}
+
+#boxes-box-site_info {
+	margin: 20px 0;
+}
+
+/* hamburger nav */
+#menu-bar ul.nice-menu a{
+	font-size:11px !important;
+	padding:8px;
+}
+
+#menu-bar ul.nice-menu a.active {
+	color:#F7A80E !important;
+}
+
+#menu-bar ul.nice-menu a:hover{
+	color:#ECCF19 !important;
+	transition: 0.5s ease-in !important;
+}
+
+/* regular nav */
+#menu-bar ul.nice-menu .menuparent ul li a,#menu-bar ul.nice-menu a {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 11px;
+	letter-spacing: .4em;
+	padding: 0 2em;
+}
+
+#menu-bar ul li a {
+	padding:.5em 1.38em;
+	background:transparent;
+	color:#444;
+	text-decoration:none;
+	text-transform:lowercase;
+	font-size:12px;
+	margin:0; /*spacing between nav links*/
+	border-bottom: 1.5px solid;
+}
+
+#menu-bar ul.nice-menu .menuparent.over > a,#menu-bar ul.nice-menu .menuparent a:hover,#menu-bar ul.nice-menu a:hover {
+ background:transparent;
+ color:#ECCF19;
+ transition: 0.5s ease-in;
+}
+
+#menu-bar ul.nice-menu a.active,#menu-bar ul.nice-menu .menuparent a.active {
+	background:transparent;
+	color:#F7A80E;
+}
+
+/* menu bar */
+#menu-bar {
+ padding:20px 0px 0px 0px;
+ border-bottom:0px;
+}
+
+/* typography */
+
+p, #main-content {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #FFF;
+}
+
+p>a, #content a, .field a {
+	font-family: 'Roboto', sans-serif;
+	color:#ECCF19 !important;
+	font-weight: 500;
+	text-decoration: none !important;
+	letter-spacing: initial;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+h1#page-title, h1.node-title {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #F7A80E;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: .4em;
+}
+
+h1#page-title {
+	font-size: 20px;
+  border-bottom: 1.5px solid #F7A80E;
+}
+
+h1.node-title, h1.node-title a {
+	font-size: 15px;
+	letter-spacing: .15em !important;;
+	font-weight: 300;
+}
+
+.field.field-label-above, .field.field-label-inline, h2.field-label, .date-display-single {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #F7A80E;
+	font-size: 12px !important;
+	font-weight: 300 !important;
+	letter-spacing: .15em;
+	text-transform: capitalize;
+}
+
+h2, .sidebar .content h2{
+	font-weight: 500;
+	color: #F7A80E;
+}
+
+h3, h4, h5{
+	font-weight: 100;
+	color: #FFF;
+	font-size: 12px !important;
+
+}
+
+
+/* research page */
+.biblio-separator-bar{
+	font-weight: 500;
+	color: #F7A80E;
+	background:none !important;
+	background-color: #F7A80E;
+	border-bottom:1.5px solid #F7A80E !important;
+	margin:3em 0 0 0;
+	padding:0;
+}
+
+.biblio-entry a {
+	color: #ECCF19;
+	letter-spacing: 0.025em;
+}
+
+a.biblio-abstract-link.toggle {
+	font-style: italic;
+}
+
+a.biblio-abstract-link.toggle {
+	background:url(../images/abstract-expand.svg);
+	background-repeat: no-repeat;
+	padding-left: 16px;
+}
+
+a.biblio-abstract-link.toggle.expanded {
+	background:url(../images/abstract-close.svg);
+	background-repeat: no-repeat;
+	padding-left: 16px;
+}
+
+.biblio-abstract-display {
+	background-color: transparent;
+	margin-top: 10px;
+	border: 2px dotted #CACACA;
+  color: #CACACA;
+	font-style: italic;
+}
+
+/* add buttons */
+
+.contextual-controls-wrapper .add_new, .add_new a, a.class_material_field_class_anchor {
+	background: transparent;
+	color: #ECCF19 !important;
+	text-transform: uppercase;
+	font-size: 11px !important;
+  font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	letter-spacing: .1em !important;
+}
+
+.add_new, a.class_material_field_class_anchor {
+	border: 2px solid #ECCF19 !important;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	padding: 5px 10px;
+}
+
+.ctools-dropdown ul, .ctools-dropdown-container {
+	background-color: #ECCF19;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+/* misc chrome */
+
+#powered-by a{
+	background:url(/profiles/openscholar/themes/os_basetheme/images/scholarbase-sprite.png?123) no-repeat scroll -14px -547px transparent;
+}
+
+a.class_material_field_class_anchor {
+	background: none !important;
+}
+
+.node.node-link {
+	border: none;
+}
+
+/* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
+ THIS EXAMPLE IS AN IE8 OVERRIDE FOR MARGIN-BOTTOM OF AN H2 - .lt-ie8 WOULD TARGET IE7 */
+.lt-ie9 h2 {
+	margin-bottom:10px;
+	}

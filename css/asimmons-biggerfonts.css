@@ -3,7 +3,8 @@
 
 /* basic page colors and layout*/
 body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, .region.region-page-bottom, #cboxOverlay, #colorbox, #page.container.page.header-none.content-top.footer-none, #branding-footer.branding-container, #page-wrap.page-wrap {
-	background-color: #312f2f;
+	background-color: #4EA393;
+	padding-top: 20px;
 }
 
 #main-content{
@@ -20,7 +21,7 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 
 /* site title */
 #boxes-box-site_info a {
-	color: #ECCF19;
+	color: #85FFF5;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-weight: 100;
 	font-size: 75px;
@@ -38,11 +39,11 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 }
 
 #menu-bar ul.nice-menu a.active {
-	color:#F7A80E !important;
+	color:#21564D !important;
 }
 
 #menu-bar ul.nice-menu a:hover{
-	color:#ECCF19 !important;
+	color:#85FFF5 !important;
 	transition: 0.5s ease-in !important;
 }
 
@@ -52,7 +53,7 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 	color: #FFF;
 	text-transform: uppercase;
 	font-weight: 500;
-	font-size: 11px;
+	font-size: 14px !important;
 	letter-spacing: .4em;
 	padding: 0 2em;
 }
@@ -63,7 +64,7 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 	color:#444;
 	text-decoration:none;
 	text-transform:lowercase;
-	font-size:12px;
+	font-size:14px;
 	margin:0; /*spacing between nav links*/
 	border-bottom: 1.5px solid;
 }
@@ -76,7 +77,7 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 
 #menu-bar ul.nice-menu a.active,#menu-bar ul.nice-menu .menuparent a.active {
 	background:transparent;
-	color:#F7A80E;
+	color:#21564D;
 }
 
 /* menu bar */
@@ -90,13 +91,13 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 p, #main-content {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 14px;
-	color: #FFF;
+	font-size: 15px;
+	color: #21564D;
 }
 
 p>a, #content a, .field a {
 	font-family: 'Roboto', sans-serif;
-	color:#ECCF19 !important;
+	color:#85FFF5 !important;
 	font-weight: 500;
 	text-decoration: none !important;
 	letter-spacing: initial;
@@ -108,7 +109,7 @@ h1, h2, h3, h4, h5 {
 
 h1#page-title, h1.node-title {
 	font-family: 'Alegreya Sans', sans-serif;
-	color: #F7A80E;
+	color: #21564D;
 	text-transform: uppercase;
 	font-weight: 500;
 	letter-spacing: .4em;
@@ -116,7 +117,7 @@ h1#page-title, h1.node-title {
 
 h1#page-title {
 	font-size: 20px;
-  border-bottom: 1.5px solid #F7A80E;
+  border-bottom: 1.5px solid #21564D;
 }
 
 h1.node-title, h1.node-title a {
@@ -127,36 +128,42 @@ h1.node-title, h1.node-title a {
 
 .field.field-label-above, .field.field-label-inline, h2.field-label, .date-display-single {
 	font-family: 'Alegreya Sans', sans-serif;
-	color: #F7A80E;
-	font-size: 123x !important;
+	color: #21564D;
+	font-size: 12px !important;
 	font-weight: 300 !important;
 	letter-spacing: .15em;
 	text-transform: capitalize;
 }
 
 h2, .sidebar .content h2{
+	font-size: 20px;
 	font-weight: 500;
-	color: #F7A80E;
+	color: #21564D;
+	margin-top: 0px;
 }
 
 h3, h4, h5{
-	font-weight: 100;
+	font-weight: 300;
 	color: #FFF;
+	font-size: 14px !important;
+	letter-spacing: .025em;
 }
+
+
 
 /* research page */
 .biblio-separator-bar{
 	font-weight: 500;
-	color: #F7A80E;
+	color: #21564D;
 	background:none !important;
-	background-color: #F7A80E;
-	border-bottom:1.5px solid #F7A80E !important;
+	background-color: #21564D;
+	border-bottom:1.5px solid #21564D !important;
 	margin:3em 0 0 0;
 	padding:0;
 }
 
 .biblio-entry a {
-	color: #ECCF19;
+	color: #85FFF5;
 	letter-spacing: 0.025em;
 }
 
@@ -188,7 +195,7 @@ a.biblio-abstract-link.toggle.expanded {
 
 .contextual-controls-wrapper .add_new, .add_new a, a.class_material_field_class_anchor {
 	background: transparent;
-	color: #ECCF19 !important;
+	color: #85FFF5 !important;
 	text-transform: uppercase;
 	font-size: 11px !important;
   font-family: 'Roboto', sans-serif;
@@ -197,7 +204,7 @@ a.biblio-abstract-link.toggle.expanded {
 }
 
 .add_new, a.class_material_field_class_anchor {
-	border: 2px solid #ECCF19 !important;
+	border: 2px solid #85FFF5 !important;
 	-webkit-border-radius:4px;
 	-moz-border-radius:4px;
 	border-radius:4px;
@@ -205,7 +212,7 @@ a.biblio-abstract-link.toggle.expanded {
 }
 
 .ctools-dropdown ul, .ctools-dropdown-container {
-	background-color: #ECCF19;
+	background-color: #85FFF5;
 	border: none !important;
 	box-shadow: none !important;
 }
