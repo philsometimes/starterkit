@@ -92,7 +92,7 @@ p, #main-content {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 300;
 	font-size: 15px;
-	color: #d2dbd7;
+	color: #eaf7f2;
 }
 
 p>a, #content a, .field a {
@@ -138,14 +138,14 @@ h1.node-title, h1.node-title a {
 h2, .sidebar .content h2{
 	font-size: 20px;
 	font-weight: 500;
-	color: #4EA393;
+	color: #EFD067;
 	margin-top: 0px;
 }
 
 h3, h4, h5{
 	font-weight: 400;
-	color: #4EA393;
-	font-size: 14px !important;
+	color: #eaf7f2;
+	font-size: 10px !important;
 	letter-spacing: .025em;
 }
 
