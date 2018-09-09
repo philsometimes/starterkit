@@ -57,12 +57,12 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 }
 
 #menu-bar ul.nice-menu a.active {
-	color:#4EA393 !important;
+	color:#85FFF5 !important;
 }
 
 #menu-bar ul.nice-menu a:hover{
-	color:#85FFF5 !important;
-	transition: 0.5s ease-in !important;
+	color:#4EA393 !important;
+	transition: 0.4s ease-in !important;
 }
 
 /* regular nav */
@@ -81,7 +81,7 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 #menu-bar ul li a {
 	padding:.5em 1.38em;
 	background:transparent;
-	color:#4EA393;
+	color:#85FFF5;
 	text-decoration:none;
 	text-transform:lowercase;
 	font-size:14px;
@@ -95,13 +95,13 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 
 #menu-bar ul.nice-menu .menuparent.over > a,#menu-bar ul.nice-menu .menuparent a:hover,#menu-bar ul.nice-menu a:hover {
  background:transparent;
- color:#85FFF5;
- transition: 0.5s ease-in;
+ color:#4EA393;
+ transition: 0.4s ease-in;
 }
 
 #menu-bar ul.nice-menu a.active,#menu-bar ul.nice-menu .menuparent a.active {
 	background:transparent;
-	color:#4EA393;
+	color:#85FFF5;
 }
 
 /* menu bar */
@@ -126,6 +126,7 @@ p>a, #content a, .field a {
 	text-decoration: none !important;
 	letter-spacing: initial;
 }
+
 
 h1, h2, h3, h4, h5 {
 	font-family: 'Rubik', sans-serif;
