@@ -7,6 +7,15 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 	padding-top: 20px;
 }
 
+.content-inner {
+	border: none !important;
+}
+
+/*photo widget*/
+.region.region-sidebar-second.sidebar .boxes-box-content{
+	padding-left: 25px;
+}
+
 #main-content{
 	padding: 0;
 }
@@ -26,11 +35,10 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 	font-weight: 700;
 	font-size: 60px;
 	line-height: 60px;
-	letter-spacing: .02em;
 }
 
 #boxes-box-site_info {
-	margin: 20px 0;
+	margin: 0px 0;
 }
 
 /* hamburger nav */
@@ -57,6 +65,8 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 	font-size: 14px !important;
 	letter-spacing: .4em;
 	padding: 0 2em;
+	margin-top: 0px;
+	margin-bottom: 40px;
 }
 
 #menu-bar ul li a {
@@ -68,6 +78,10 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 	font-size:14px;
 	margin:0; /*spacing between nav links*/
 	border-bottom: none;
+}
+
+#menu-bar .menu-377708.menu-path-front.first.odd  {
+	margin-left: -30px;
 }
 
 #menu-bar ul.nice-menu .menuparent.over > a,#menu-bar ul.nice-menu .menuparent a:hover,#menu-bar ul.nice-menu a:hover {
@@ -137,22 +151,21 @@ h1.node-title, h1.node-title a {
 }
 
 h2, .sidebar .content h2{
-	font-size: 22px;
+	font-size: 24px;
 	font-weight: 500;
 	color: #EFD067;
 	margin-top: 6px;
 	margin-bottom: 6px;
-	text-align: right;
-	letter-spacing: 0.03em;
+	text-align: left;
 }
 
 h3, h4, h5{
 	font-weight: 100;
 	color: #EFD067;
-	font-size: 14px !important;
-	letter-spacing: .05em;
+	font-size: 13px !important;
+	letter-spacing: .04em;
 	line-height: 18px;
-	text-align: right;
+	text-align: left;
 }
 
 
