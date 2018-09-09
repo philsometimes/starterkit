@@ -1,9 +1,9 @@
 /* To utilize a google font, place the font url's here at the top of this css file as seen here*/
-@import url('//fonts.googleapis.com/css?family=Rubik:300,400,700,900');
+@import url('//fonts.googleapis.com/css?family=Rubik:300,400,700');
 
 /* basic page colors and layout*/
 body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, .region.region-page-bottom, #cboxOverlay, #colorbox, #page.container.page.header-none.content-top.footer-none, #branding-footer.branding-container, #page-wrap.page-wrap {
-	background-color: #4EA393;
+	background-color: #3d3838;
 	padding-top: 20px;
 }
 
@@ -23,9 +23,9 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 #boxes-box-site_info a {
 	color: #85FFF5;
 	font-family: 'Rubik', sans-serif;
-	font-weight: 900;
-	font-size: 75px;
-	line-height: 75px;
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 70px;
 }
 
 #boxes-box-site_info {
@@ -39,7 +39,7 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 }
 
 #menu-bar ul.nice-menu a.active {
-	color:#21564D !important;
+	color:#4EA393 !important;
 }
 
 #menu-bar ul.nice-menu a:hover{
@@ -61,23 +61,23 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 #menu-bar ul li a {
 	padding:.5em 1.38em;
 	background:transparent;
-	color:#444;
+	color:#4EA393;
 	text-decoration:none;
 	text-transform:lowercase;
 	font-size:14px;
 	margin:0; /*spacing between nav links*/
-	border-bottom: 1.5px solid;
+	border-bottom: none;
 }
 
 #menu-bar ul.nice-menu .menuparent.over > a,#menu-bar ul.nice-menu .menuparent a:hover,#menu-bar ul.nice-menu a:hover {
  background:transparent;
- color:#ECCF19;
+ color:#85FFF5;
  transition: 0.5s ease-in;
 }
 
 #menu-bar ul.nice-menu a.active,#menu-bar ul.nice-menu .menuparent a.active {
 	background:transparent;
-	color:#21564D;
+	color:#4EA393;
 }
 
 /* menu bar */
@@ -92,13 +92,13 @@ p, #main-content {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 300;
 	font-size: 15px;
-	color: #21564D;
+	color: #4EA393;
 }
 
 p>a, #content a, .field a {
 	font-family: 'Rubik', sans-serif;
 	color:#85FFF5 !important;
-	font-weight: 300;
+	font-weight: 400;
 	text-decoration: none !important;
 	letter-spacing: initial;
 }
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5 {
 
 h1#page-title, h1.node-title {
 	font-family: 'Rubik', sans-serif;
-	color: #21564D;
+	color: #4EA393;
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: .4em;
@@ -117,7 +117,7 @@ h1#page-title, h1.node-title {
 
 h1#page-title {
 	font-size: 20px;
-  border-bottom: 1.5px solid #21564D;
+  border-bottom: 1.5px solid #4EA393;
 }
 
 h1.node-title, h1.node-title a {
@@ -128,9 +128,9 @@ h1.node-title, h1.node-title a {
 
 .field.field-label-above, .field.field-label-inline, h2.field-label, .date-display-single {
 	font-family: 'Rubik', sans-serif;
-	color: #21564D;
+	color: #4EA393;
 	font-size: 12px !important;
-	font-weight: 300 !important;
+	font-weight: 400 !important;
 	letter-spacing: .15em;
 	text-transform: capitalize;
 }
@@ -138,7 +138,7 @@ h1.node-title, h1.node-title a {
 h2, .sidebar .content h2{
 	font-size: 20px;
 	font-weight: 500;
-	color: #21564D;
+	color: #4EA393;
 	margin-top: 0px;
 }
 
@@ -154,10 +154,10 @@ h3, h4, h5{
 /* research page */
 .biblio-separator-bar{
 	font-weight: 500;
-	color: #21564D;
+	color: #4EA393;
 	background:none !important;
-	background-color: #21564D;
-	border-bottom:1.5px solid #21564D !important;
+	background-color: #4EA393;
+	border-bottom:1.5px solid #4EA393 !important;
 	margin:3em 0 0 0;
 	padding:0;
 }
