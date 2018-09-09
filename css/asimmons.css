@@ -143,9 +143,9 @@ h2, .sidebar .content h2{
 }
 
 h3, h4, h5{
-	font-weight: 400;
-	color: #4EA393;
-	font-size: 11px !important;
+	font-weight: 100;
+	color: #EFD067;
+	font-size: 12px !important;
 	letter-spacing: .0em;
 }
 
