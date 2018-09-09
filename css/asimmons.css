@@ -150,7 +150,7 @@ h1.node-title, h1.node-title a {
 	text-transform: capitalize;
 }
 
-h2, .sidebar .content h2{
+h5, .sidebar .content h5{
 	font-size: 24px;
 	font-weight: 500;
 	color: #EFD067;
@@ -159,13 +159,20 @@ h2, .sidebar .content h2{
 	text-align: left;
 }
 
-h3, h4, h5{
+h6{
 	font-weight: 100;
 	color: #EFD067;
 	font-size: 13px !important;
 	letter-spacing: .04em;
 	line-height: 18px;
 	text-align: left;
+}
+
+h2, h3, h4{
+	font-weight: 500;
+	color: #4EA393;
+	letter-spacing: .04em;
+	line-height: 18px;
 }
 
 
