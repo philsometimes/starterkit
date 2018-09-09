@@ -3,7 +3,7 @@
 
 /* basic page colors and layout*/
 body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, .region.region-page-bottom, #cboxOverlay, #colorbox, #page.container.page.header-none.content-top.footer-none, #branding-footer.branding-container, #page-wrap.page-wrap {
-	background-color: #3d3838;
+	background-color: #312f2f;
 	padding-top: 20px;
 }
 
@@ -24,8 +24,8 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 	color: #85FFF5;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 700;
-	font-size: 70px;
-	line-height: 70px;
+	font-size: 60px;
+	line-height: 60px;
 }
 
 #boxes-box-site_info {
