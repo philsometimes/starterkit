@@ -11,6 +11,10 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 	border: none !important;
 }
 
+#content-column[role="main"] {
+	margin-left: -10px !important;
+}
+
 /*photo widget*/
 .region.region-sidebar-second.sidebar .boxes-box-content{
 	padding-left: 25px;
