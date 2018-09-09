@@ -1,5 +1,5 @@
 /* To utilize a google font, place the font url's here at the top of this css file as seen here*/
-@import url('//fonts.googleapis.com/css?family=Rubik:300,400,700');
+@import url('//fonts.googleapis.com/css?family=Rubik:300,500,700');
 
 /* basic page colors and layout*/
 body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, .region.region-page-bottom, #cboxOverlay, #colorbox, #page.container.page.header-none.content-top.footer-none, #branding-footer.branding-container, #page-wrap.page-wrap {
@@ -52,7 +52,7 @@ body, #page-wrapper, #menu-bar, #columns.clearfix, #footer.clearfix, #extradiv, 
 	font-family: 'Rubik', sans-serif;
 	color: #FFF;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 14px !important;
 	letter-spacing: .4em;
 	padding: 0 2em;
@@ -98,7 +98,7 @@ p, #main-content {
 p>a, #content a, .field a {
 	font-family: 'Rubik', sans-serif;
 	color:#85FFF5 !important;
-	font-weight: 400;
+	font-weight: 500;
 	text-decoration: none !important;
 	letter-spacing: initial;
 }
@@ -111,7 +111,7 @@ h1#page-title, h1.node-title {
 	font-family: 'Rubik', sans-serif;
 	color: #4EA393;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 700;
 	letter-spacing: .4em;
 }
 
@@ -130,7 +130,7 @@ h1.node-title, h1.node-title a {
 	font-family: 'Rubik', sans-serif;
 	color: #4EA393;
 	font-size: 12px !important;
-	font-weight: 400 !important;
+	font-weight: 500 !important;
 	letter-spacing: .15em;
 	text-transform: capitalize;
 }
@@ -199,7 +199,7 @@ a.biblio-abstract-link.toggle.expanded {
 	text-transform: uppercase;
 	font-size: 11px !important;
   font-family: 'Rubik', sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	letter-spacing: .1em !important;
 }
 
