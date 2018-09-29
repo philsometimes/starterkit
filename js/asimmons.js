@@ -2,4 +2,4 @@
 var title = document.querySelector("#boxes-box-site_info .boxes-box-content").innerHTML;
 console.log(title);
 // document.querySelector("#boxes-box-site_info .boxes-box-content").innerHTML = '<h1><a href="/alisonsimmons">Alison Simmons</a></h1><p>Samuel H. Wolcott Professor of Philosophy</p><p>Harvard College Professor (2011-2016)</p>';
-document.querySelector("#boxes-box-site_info .boxes-box-content").innerHTML = '<div style="float:left;"><h1><a href="/alisonsimmons">Alison Simmons</a></h1></div><div style="float:right;"><p>Samuel H. Wolcott Professor of Philosophy</p><p>Harvard College Professor (2011-2016)</p></div>';
+document.querySelector("#boxes-box-site_info .boxes-box-content").innerHTML = '<div><h1><a href="/alisonsimmons">Alison Simmons</a></h1></div><div><br><p>Samuel H. Wolcott Professor of Philosophy</p><p>Harvard College Professor (2011-2016)</p></div>';
