@@ -16,4 +16,4 @@
 ; css[] = css/asimmons.layout.css
 ; ie_stylesheets[screen][lt IE 9][] = css/asimmons-ie.css
 
-; scripts[] = js/asimmons.js
+; scripts[] = js/asimmon.js
